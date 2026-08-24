@@ -28,6 +28,40 @@ export interface Project {
 
 export const projectsData: Project[] = [
   {
+    id: 10,
+    slug: "nike-run-for-life",
+    titleLeft: "Run For\nLife",
+    titleRight: "Nike\nRunning",
+    catLeft: "360 CAMPAIGN",
+    catRight: "SPORTS",
+    num: "01.",
+    client: "NIKE RUNNING",
+    duration: ".42",
+    img: "/projects/Nike - Run for Life/KV.PNG",
+    isVideo: false,
+    description: "Make running feel like it belongs to everyone. Running is often associated with athletes, fitness enthusiasts and people chasing performance goals. The challenge was to challenge that perception and make running feel human, accessible and personal.",
+    conceptHeading: "Running can be for me.",
+    conceptDescription: "Instead of starting with an athlete, we built the campaign around an ordinary person. Someone who is ambitious, disciplined, physically ordinary, not fitness obsessed, and not a runner. He doesn't need to change before he can run. He simply hasn't considered running as something that belongs to him.\n\nThe obvious reasons to run were easy: Fitness. Health. Performance. But what happens when you remove the goal? You still move. You still breathe. You still experience your body. And sometimes, you simply: FEEL ALIVE. This became the emotional centre of the campaign. The platform works because “life” has two meanings. The life we're already running for (Money, Work, Family). And running for life—running simply to move, breathe, reset and reconnect with the feeling of being alive.",
+    role: "Concept & Art Direction",
+    year: "2024",
+    accentColor: "rgba(255, 102, 0, 0.4)",
+    gallery: [
+      { url: "/projects/Nike - Run for Life/main video.mp4", isVideo: true, layout: 'full', captionTitle: "Hero Film", captionText: "Everyone's running. To get somewhere. To keep things moving. But sometimes you just need to move." },
+      { url: "/projects/Nike - Run for Life/OOH 2.png", layout: 'full', captionTitle: "01 / OOH", captionText: "Make the city notice. Each execution owns a different territory." },
+      { url: "/projects/Nike - Run for Life/OOH 4.png", layout: 'half' },
+      { url: "/projects/Nike - Run for Life/OOH 5.PNG", layout: 'half' },
+      { url: "/projects/Nike - Run for Life/social 1.PNG", layout: 'third', captionTitle: "02 / Social", captionText: "Make the campaign feel personal." },
+      { url: "/projects/Nike - Run for Life/social 2.PNG", layout: 'third' },
+      { url: "/projects/Nike - Run for Life/social 4.PNG", layout: 'third' },
+      { url: "/projects/Nike - Run for Life/on ground activation 1.PNG", layout: 'half', captionTitle: "03 / Experiential", captionText: "A large-scale travelling public experience invites everyday people to try running." },
+      { url: "/projects/Nike - Run for Life/on ground activation 2.PNG", layout: 'half' },
+      { url: "/projects/Nike - Run for Life/mobile experience.PNG", layout: 'half', captionTitle: "04 / Digital", captionText: "Your run. Your pace. Your journey. It remembers why you started." },
+      { url: "/projects/Nike - Run for Life/store experience 1.PNG", layout: 'half', captionTitle: "05 / Retail", captionText: "From the street to the store." },
+      { url: "/projects/Nike - Run for Life/storyboard.png", layout: 'full', captionTitle: "Storyboard & Process" },
+      { url: "/projects/Nike - Run for Life/Main LOCKUP.PNG", layout: 'full', captionTitle: "Final Lockup" }
+    ]
+  },
+  {
     id: 1,
     slug: "bad-boy-pizza",
     titleLeft: "Bad Boy\nPizza",

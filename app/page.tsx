@@ -249,7 +249,7 @@ function HomeContent({ filter }: { filter: string }) {
   return (
     <div 
       ref={containerRef} 
-      className="w-full h-screen bg-[#1b1b1a] text-[#f1e5d1] relative overflow-hidden font-sans selection:bg-[#f1e5d1] selection:text-[#1b1b1a]"
+      className="w-full h-screen bg-[#1b1b1a] text-[#f1e5d1] relative overflow-hidden font-sans selection:bg-[#f1e5d1] selection:text-[#1b1b1a] touch-none"
     >
       {!preloaderComplete && <Preloader onComplete={() => setPreloaderComplete(true)} />}
       
@@ -299,7 +299,7 @@ function HomeContent({ filter }: { filter: string }) {
           {slidesData.map((slide, i) => (
             <div key={`left-${slide.id}`} className="absolute left-0 md:left-auto w-full title-left-text" style={{ display: i === 0 ? 'block' : 'none' }}>
               <div>
-                <h2 className="text-[12vw] md:text-[4.5vw] font-normal leading-[1] text-[#f1e5d1] whitespace-pre-wrap tracking-tight break-words text-center md:text-left" style={{ fontFamily: 'EditorialnewItalicRegular, Playfair Display, serif' }}>
+                <h2 className="text-[10vw] md:text-[4vw] font-normal leading-[1] text-[#f1e5d1] whitespace-pre-wrap tracking-tight break-words text-center md:text-left" style={{ fontFamily: 'EditorialnewItalicRegular, Playfair Display, serif' }}>
                   {slide.titleLeft}
                 </h2>
               </div>
@@ -310,7 +310,7 @@ function HomeContent({ filter }: { filter: string }) {
           {slidesData.map((slide, i) => (
             <div key={`right-${slide.id}`} className="absolute right-0 md:right-auto w-full flex justify-center md:justify-end title-right-text" style={{ display: i === 0 ? 'block' : 'none' }}>
               <div>
-                <h2 className="text-[12vw] md:text-[4.5vw] font-normal leading-[1] text-[#f1e5d1] whitespace-pre-wrap tracking-tight text-center md:text-right break-words" style={{ fontFamily: 'EditorialnewItalicRegular, Playfair Display, serif' }}>
+                <h2 className="text-[10vw] md:text-[4vw] font-normal leading-[1] text-[#f1e5d1] whitespace-pre-wrap tracking-tight text-center md:text-right break-words" style={{ fontFamily: 'EditorialnewItalicRegular, Playfair Display, serif' }}>
                   {slide.titleRight}
                 </h2>
               </div>

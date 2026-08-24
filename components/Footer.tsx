@@ -29,7 +29,7 @@ export default function Footer() {
 
       {/* Col 3 */}
       {!isWorkPage && (
-        <div className="absolute left-[65%] bottom-8 pointer-events-auto flex gap-3 leading-tight">
+        <div className="absolute left-[65%] bottom-8 pointer-events-auto hidden md:flex gap-3 leading-tight">
           <span className="w-1.5 h-1.5 bg-[#f1e5d1] rounded-full mt-1.5"></span>
           <div className="flex flex-col">
             <Link href="/" className="font-bold text-[#f1e5d1] mb-1 hover:text-[#f1e5d1]/80 transition-colors">ALL <span className="italic font-serif normal-case opacity-70">(9)</span></Link>
