@@ -19,7 +19,7 @@ function HomeContent({ filter }: { filter: string }) {
   // Filter projects based on query param
   const slidesData = React.useMemo(() => {
     if (filter === 'visual-design') return allSlidesData.filter(p => [5, 6, 7, 8].includes(p.id));
-    if (filter === 'art-direction') return allSlidesData.filter(p => [1, 4].includes(p.id));
+    if (filter === 'art-direction') return allSlidesData.filter(p => [1, 4, 10].includes(p.id));
     if (filter === 'ui-ux-motion') return allSlidesData.filter(p => [2, 3, 9].includes(p.id));
     return allSlidesData;
   }, [filter]);
