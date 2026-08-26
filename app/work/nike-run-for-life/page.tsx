@@ -97,7 +97,7 @@ export default function NikeRunForLife() {
       {/* HERO SECTION */}
       <section className="relative w-full h-[65vh] md:h-screen flex items-center justify-center overflow-hidden border-b border-[#f1e5d1]/10">
         <div ref={heroImgRef} className="absolute inset-0 z-0 opacity-60">
-          <img src="/projects/Nike - Run for Life/KV.PNG" alt="Run For Life" className="w-full h-full object-cover" />
+          <img src="/projects/Nike - Run for Life/OOH 3.jpeg" alt="Run For Life" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-b from-[#1b1b1a]/80 via-transparent to-[#1b1b1a]"></div>
         </div>
         <div className="absolute inset-0 z-10 w-full h-full px-[6%] pt-24 pb-12 md:pt-32 md:pb-24 flex flex-col justify-center items-center mix-blend-difference pointer-events-none">
