@@ -37,7 +37,7 @@ export const projectsData: Project[] = [
     num: "01.",
     client: "NIKE RUNNING",
     duration: ".42",
-    img: "/projects/Nike - Run for Life/KV.PNG",
+    img: "/projects/Nike - Run for Life/OOH 3.jpeg",
     isVideo: false,
     description: "The core barrier wasn't 'I can't run'—it was 'I'm not a runner.' This 360° campaign dismantles the intimidation of performance fitness, shifting the focus from elite athletes to the everyday rhythm of human movement.",
     conceptHeading: "Running can be for me.",
