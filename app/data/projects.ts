@@ -62,6 +62,37 @@ export const projectsData: Project[] = [
     ]
   },
   {
+    id: 11,
+    slug: "fever-tree",
+    titleLeft: "Mix Your\n Aura",
+    titleRight: "Fever-Tree\nCampaign",
+    catLeft: "CAMPAIGN & ART DIRECTION",
+    catRight: "BEVERAGE",
+    num: "11.",
+    client: "FEVER-TREE",
+    duration: ".42",
+    img: "/projects/Fever-Tree/OOH Main.png",
+    isVideo: false,
+    description: "Fever-Tree already owns premium mixers. The opportunity was to make the brand feel more culturally relevant to a younger audience by giving it a stronger role in the social moments where drinks actually live.",
+    conceptHeading: "One person. Different sides.",
+    conceptDescription: "We don't show up the same way everywhere. The person you see in a corporate party isn't necessarily the same person you meet at a house party. But instead of treating these as separate audiences, we saw them as different sides of the same person. We turn Fever-Tree into a catalyst for these different sides of personality. The campaign follows people through different social occasions, showing how their personality, energy and behaviour shift with the moment.",
+    role: "Art Direction & Campaign Concept",
+    year: "2024",
+    accentColor: "rgba(157, 78, 221, 0.4)",
+    gallery: [
+      { url: "/projects/Fever-Tree/OOH Main.png", layout: 'full', captionTitle: "Hero KV", captionText: "Mix Your Aura" },
+      { url: "/projects/Fever-Tree/KV 1.PNG", layout: 'full' },
+      { url: "/projects/Fever-Tree/KV 2.PNG", layout: 'half' },
+      { url: "/projects/Fever-Tree/KV 3.PNG", layout: 'half' },
+      { url: "/projects/Fever-Tree/KV 4.PNG", layout: 'half' },
+      { url: "/projects/Fever-Tree/KV 5.PNG", layout: 'half' },
+      { url: "/projects/Fever-Tree/OOH 1.png", layout: 'half' },
+      { url: "/projects/Fever-Tree/OOH 2.png", layout: 'half' },
+      { url: "/projects/Fever-Tree/Experiential.png", layout: 'full' },
+      { url: "/projects/Fever-Tree/Social + Influencer.png", layout: 'full' }
+    ]
+  },
+  {
     id: 1,
     slug: "bad-boy-pizza",
     titleLeft: "Bad Boy\nPizza",
