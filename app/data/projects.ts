@@ -89,7 +89,7 @@ export const projectsData: Project[] = [
       { url: "/projects/Fever-Tree/OOH 1.png", layout: 'half' },
       { url: "/projects/Fever-Tree/OOH 2.png", layout: 'half' },
       { url: "/projects/Fever-Tree/Experiential.png", layout: 'full' },
-      { url: "/projects/Fever-Tree/Social + Influencer.png", layout: 'full' }
+      { url: "/projects/Fever-Tree/Social-Influencer.png", layout: 'full' }
     ]
   },
   {
