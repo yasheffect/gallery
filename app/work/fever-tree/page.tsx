@@ -33,7 +33,7 @@ export default function FeverTree() {
     { url: "/projects/Fever-Tree/OOH 1.png" },
     { url: "/projects/Fever-Tree/OOH 2.png" },
     { url: "/projects/Fever-Tree/Experiential.png" },
-    { url: "/projects/Fever-Tree/Social + Influencer.png" }
+    { url: "/projects/Fever-Tree/Social-Influencer.png" }
   ];
 
   useEffect(() => {
@@ -427,7 +427,7 @@ export default function FeverTree() {
               </p>
             </div>
             <div className="relative w-full border border-[#f1e5d1]/10 bg-[#151515]">
-              <ImageExpand src="/projects/Fever-Tree/Social + Influencer.png" alt="Social" className="w-full h-auto" onExpand={() => openLightbox("/projects/Fever-Tree/Social + Influencer.png")} />
+              <ImageExpand src="/projects/Fever-Tree/Social-Influencer.png" alt="Social" className="w-full h-auto" onExpand={() => openLightbox("/projects/Fever-Tree/Social-Influencer.png")} />
             </div>
           </div>
 
